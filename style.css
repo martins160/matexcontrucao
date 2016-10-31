@@ -368,11 +368,15 @@ body{
 
 .clientes-blocos-icons:hover p{
     color: #FEC301;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .clientes-blocos-icons:hover .icons-clientes{
     color: #FEC301;
     border: 5px solid #FEC301;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .cliente-tel{
@@ -409,6 +413,12 @@ body{
     padding: 10px;
     text-align: center;
 }
+
+.contato .btn:hover{
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;    
+}
+
 
 .contato .form-control{
     color: #004C76 !important;    
