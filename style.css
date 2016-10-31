@@ -205,90 +205,89 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.row-icons{
-    margin: 10px 0;
-    padding: 50px 0 0 0;
+.ofertas{    
+    background: url(assets/images/temp/bg-ofertas.jpg) center center no-repeat fixed;
+    padding: 10px 0 20px 0;
 }
 
-
-.icons{
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;    
-    -moz-justify-content: center;    
-    -ms-justify-content: center;    
-    -o-justify-content: center;    
-    -webkit-box-pack: center;    
-        -ms-flex-pack: center;    
-            justify-content: center;  
-}
-
-
-.icones p{
+.ofertas-titu{
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 300;
+    padding: 0 0 10px 0;
 }
 
-.icons [class^="icon-"]{
-    border: 1px solid #333;
-    color: #333;
-    text-decoration: none;
-    font-size: 50px;
-    padding: 40px 20px 20px 22px;
-    background: none;
-    border-radius: 50%;
-    width: 123px;
-    height: 123px;
-    display: inline-block;
-    margin: 0 0 15px 0;
-    line-height: 40px;
-    cursor: pointer;
+.ofertas-blocos{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.ofetas-blocos-off{
+    margin: 0 0 10px 0;
+}
+
+.ofetas-blocos-off p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
+    margin: 0;
 }
 
-.icons [class^="icon-"]:hover{
-    background-color: transparent;
-    color: #4482A6;
-    border: 1px solid #4482A6;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s; 
+.ofetas-blocos-off .vlr{
+    font-size: 36px;
+    font-weight: 800;
+    color: #FEC301;
+    text-align: center;
+    margin: -10px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -654,59 +653,15 @@ body{
 /*RESPONSIVO 480*************************************************************************************************************************/
 @media(min-width:480px){
     
-    .logo img{
-        width: 43%;
-        margin: -1px 0 0 20px;
-    }
-    
-    
-  
-
-  
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+.logo img{
+    width: 43%;
+    margin: -1px 0 0 20px;
+}
+      
     
     
 
-    .trabalhos h1{        
-        font-size: 35px;      
-        margin: 15px 0 0 0; 
-    } 
     
-    .trab-block{
-        margin: 40px 0 0 0;
-    }
-    
-    .footer img{
-        width: auto;       
-    }
-    
-    .backtopo{ 
-        width:50px; 
-        height:50px; 
-        background:url(assets/images/icon_back.png) no-repeat; 
-        cursor:pointer; 
-        position:fixed;
-        z-index:1000; 
-        bottom:60px; 
-        right:40px; 
-        display:none;
-    }
-    .backtopo:hover{ 
-        /*background:url(assets/images/icon_back2.png) no-repeat;*/
-        -webkit-transition: all 0.4s;
-        transition: all 0.4s; 
-    }
     
 }
 
@@ -723,8 +678,35 @@ body{
   
     
    
+ 
     
     
+    
+    
+    
+    .ofertas{ 
+        padding: 20px 0 20px 0;
+    }
+
+    .ofertas-titu{       
+        font-size: 60px;       
+        padding: 0 0 40px 0;
+    }
+
+    .ofertas-blocos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    
+
+   
+
+
  
     
     
@@ -862,6 +844,7 @@ body{
     
     
     
+   
     
     
     
@@ -875,102 +858,25 @@ body{
     
     
     
-    .sobre{
-        max-height: 650px;    
-        background: url(assets/images/temp/11.jpg) top center no-repeat fixed;
-        padding: 50px 0;
-    }
-    
-    .sobre img{        
-        margin: -50px 0 0 0;
-    }
-    
-
-    
-    .chamada-block a{
-        width: 450px;
-        font-size: 30px;
-        font-weight: 700;
-    }
-    
-    .chamada-block p{
-        font-size: 55px;
-    }
-    
-        .energia h3{        
-        font-size: 40px;
-        color: #fff;
-        padding: 0px 0 0 0 !important;
-    }
-
-    .energia h1{         
-        font-size: 70px;       
-        color: #fff; 
-        padding: 20px 0;
-        margin: 25px 0 65px 0;
-    }
-
-
-    
-    .energ-sub{
-        background: rgba(0,0,0,0.8);
-        padding: 60px 0;
-    }
-
-    .energ-sub p{        
-        font-weight: 300;          
-        font-size: 40px;        
-        margin: auto;
-    }
     
     
-    .solucao{
-        background: #FDD122;
-        padding: 50px 0;
-    }
-
-    .solucao p{
-        text-align: center;
-        font-size: 35px;
-        font-weight: 300;
-        color: #306B8A;
-    }
-
-    .solucao h2{
-        text-align: center;
-        font-size: 34px;
-        color: #EDEDED;
-        font-weight: 800;
-        margin: 25px 0 0 0;
-    }
     
     
-    .sistemas{
-        padding: 80px 0 80px 0;
-    }
-    
-    .sistemas h1{
-         margin: 0 0 50px 0;
-        font-size: 25px;
-    }
-    
-    .sistemas ul{
-        margin: 35px 0 0 0;
-    }
     
     
-    .footer img{
-        width: auto;       
-    }
-
-    .footer p{        
-        font-size: 25px;        
-        margin: 30px 0;
-    }
     
-    .footer .copy{
-        margin: 30px 0 0 0;
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
 
 }
 
@@ -1006,7 +912,12 @@ body{
     .nav{
         margin: 45px 20px 40px 0;
     }
+
     
+    
+    
+    
+
   
     
 
