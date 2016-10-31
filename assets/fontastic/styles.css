@@ -110,3 +110,15 @@
 .icon-ok:before {
   content: "\78";
 }
+.icon-ampulheta:before {
+  content: "\79";
+}
+.icon-feliz:before {
+  content: "\7a";
+}
+.icon-users:before {
+  content: "\41";
+}
+.icon-cart:before {
+  content: "\42";
+}
