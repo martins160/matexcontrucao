@@ -388,6 +388,31 @@ body{
 
 
 
+.contato{
+    background: url(assets/images/temp/bg-contact.png);
+    padding: 30px 0;
+}
+
+.text-center{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 40px 0;
+}
+
+.contato .btn{
+    width: 140px;
+    background: #FEC301;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+
+.contato .form-control{
+    color: #004C76 !important;    
+}
 
 
 
@@ -395,6 +420,57 @@ body{
 
 
 
+
+
+
+.marcas{
+    padding: 20px 0;
+}
+
+.marcas-titu{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    color: #004C76;
+    font-weight: 700;
+}
+
+.marcas-bar{
+    width: 100px;
+    height: 3px;
+    background: #FEC301;        
+    margin: 5px auto !important;
+    display: block;       
+
+}
+
+.marcas-logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 0;
+}
+
+.marcas-logo-bloco{
+    margin: 5px 0;
+}
+
+
+
+
+
+
+.footer{
+    padding: 10px 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #004C76;
+}
 
 
 
@@ -462,6 +538,11 @@ body{
     .cliente-tel{
         font-size: 50px;
     }
+    
+    
+    
+    
+
 
 
     
@@ -546,6 +627,7 @@ body{
         justify-content: space-between;       
         align-items: center;
         width: 100%;
+        margin: 0 0 20px 0;
     }
 
  
@@ -583,7 +665,29 @@ body{
   
 
     
-    
+    .marcas{
+        padding: 30px 0;
+    }
+
+    .marcas-titu{        
+        font-size: 30px;       
+    }
+
+    .marcas-bar{
+        width: 200px;
+        height: 10px;        
+    }
+
+    .marcas-logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin: 30px 0 20px 0;
+    }
+
+
     
 
    
@@ -717,7 +821,7 @@ body{
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        margin: 30px 0;
+        margin: 30px 0 40px 0;
     }
     
   
@@ -756,8 +860,37 @@ body{
     
     
     
-        
+    .contato .form-control{
+        width: 300px;
+    }
+
+    .contato textarea{
+        width: 100% !important;
+    }
+
+    .contato-exclusive{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
     
+    
+    
+    
+    
+
+    .marcas-logo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        margin: 30px 0 20px 0;
+    }
+
+    
+   
     
     
     
@@ -822,6 +955,34 @@ body{
  
     
     
+    
+    
+    .contato .form-control{
+        width: 350px;
+    }
+
+    
+    
+    
+    
+    
+    .marcas-titu{
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        color: #004C76;
+    }
+        
+    .marcas-bar{
+        width: 200px !important;
+        height: 10px !important;
+        background: #FEC301;        
+        margin: 5px auto !important;
+        display: block;       
+        
+    }
+
     
 
   
