@@ -3,7 +3,6 @@
 
 
 
-
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;    
@@ -45,8 +44,7 @@ body{
 
 
 
-
-
+/*HEADER***********************/
 
 .header{
     height: 50px;    
@@ -142,7 +140,7 @@ body{
 
 
 
-
+/*BANNER***********************/
 
 
 .banner{
@@ -162,7 +160,7 @@ body{
 
 
 
-
+/*BLOCO1***********************/
 
 .bloco1-icons{
     width: 100%;
@@ -219,7 +217,7 @@ body{
 
 
 
-
+/*OFERTAS***********************/
 
 .ofertas{    
     background: url(assets/images/temp/bg-ofertas.jpg) center center no-repeat fixed;
@@ -272,7 +270,7 @@ body{
 
 
 
-
+/*DESTAQUES***********************/
 
 .destaques{    
     background: #fff;
@@ -327,10 +325,6 @@ body{
 
 
 
-
-
-
-
 .cliente-titu{
     background: url(assets/images/temp/bg-cliente.jpg) center center no-repeat fixed;
     padding: 20px 0;    
@@ -346,10 +340,18 @@ body{
 
 
 .clientes-blocos{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
@@ -362,8 +364,6 @@ body{
     padding: 25px 0px 20px 0 !important;
     width: 120px;
     border: 5px solid #3F4650;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
     border-radius: 100%;
     
     display: block;
@@ -409,6 +409,8 @@ body{
 
 
 
+/*CONTATO***********************/
+
 .contato{
     background: url(assets/images/temp/bg-contact.png);
     padding: 30px 0;
@@ -447,7 +449,7 @@ body{
 
 
 
-
+/*MARCAS***********************/
 
 
 .marcas{
@@ -473,11 +475,21 @@ body{
 }
 
 .marcas-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
     margin: 20px 0;
 }
@@ -489,7 +501,7 @@ body{
 
 
 
-
+/*FOOTER***********************/
 
 .footer{
     padding: 10px 0;
@@ -515,6 +527,7 @@ body{
 }
 .backtopo:hover{ 
     /*background:url(assets/images/icon_back2.png) no-repeat;*/
+    -webkit-transition: all 0.4s;
     transition: all 0.4s; 
 }
 
@@ -562,11 +575,7 @@ body{
 
 
 /*********************************************************************************/
-@media(min-width:768px){
-    
-    
-
-    
+@media(min-width:768px){    
     
     .ofertas{ 
         padding: 20px 0 20px 0;        
@@ -596,12 +605,9 @@ body{
     }
     
     
-    
-    
-    
-    
-    
 
+    
+    /************************************/
 
     .destaques{            
         padding: 30px 0 20px 0;
@@ -621,11 +627,21 @@ body{
     }
 
     .destaques-blocos{       
+        display: -webkit-box;       
+        display: -ms-flexbox;       
         display: flex;      
-        flex-direction:row;       
-        flex-wrap: wrap;
-        justify-content: space-between;       
-        align-items: center;
+        -webkit-box-orient:horizontal;      
+        -webkit-box-direction:normal;      
+            -ms-flex-direction:row;      
+                flex-direction:row;       
+        -ms-flex-wrap: wrap;       
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;       
+        -webkit-box-align: center;       
+            -ms-flex-align: center;       
+                align-items: center;
         width: 100%;
         margin: 0 0 20px 0;
     }
@@ -633,7 +649,7 @@ body{
  
 
   
-    
+   /************************************/ 
     
     
     
@@ -652,18 +668,30 @@ body{
     }
     
     .clientes-blocos{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         
         padding: 40px 0 30px 0;
     }
 
 
   
-
+    /************************************/
+    
+    
     
     .marcas{
         padding: 30px 0;
@@ -679,10 +707,18 @@ body{
     }
 
     .marcas-logo{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
 
         margin: 30px 0 20px 0;
     }
@@ -709,12 +745,8 @@ body{
 
 
 
-/*********************************************************************************/
-@media(min-width:1024px){ 
-    
-    
-
-    
+/*******************************************************************************************************************************************/
+@media(min-width:1024px){     
     
     header{
         background: #fff;
@@ -814,15 +846,7 @@ body{
                 align-items: center;
         margin: 30px 0 -50px 0;
     }
-    
-  
-    
-
-    
-   
-   
-    
-    
+        
 
 
     .destaques{            
@@ -835,11 +859,21 @@ body{
     }
 
     .destaques-blocos{       
+        display: -webkit-box;       
+        display: -ms-flexbox;       
         display: flex;      
-        flex-direction:row;       
-        flex-wrap: wrap;
-        justify-content: space-between;       
-        align-items: center;
+        -webkit-box-orient:horizontal;      
+        -webkit-box-direction:normal;      
+            -ms-flex-direction:row;      
+                flex-direction:row;       
+        -ms-flex-wrap: wrap;       
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;       
+        -webkit-box-align: center;       
+            -ms-flex-align: center;       
+                align-items: center;
     }
     
     .destaques-blocos-off{
@@ -864,10 +898,18 @@ body{
     }
 
     .contato-exclusive{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     
     
@@ -876,21 +918,20 @@ body{
     
 
     .marcas-logo{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
 
         margin: 30px 0 20px 0;
     }
-
-    
-   
-    
-    
-    
-    
-    
    
 
 }
@@ -906,11 +947,7 @@ body{
 
 
 
-@media(min-width:1280px){
-    
-  
-    
-    
+@media(min-width:1280px){    
     
    .header .conteudo{      
         height: 80px;
@@ -930,9 +967,6 @@ body{
 
     
     
-    
-    
-    
     .destaques-titu{
         float: left;
         margin: 15px 0 0 0;
@@ -947,18 +981,13 @@ body{
         width: 100%;
     }
     
- 
-    
-    
+        
     
     
     .contato .form-control{
         width: 350px;
     }
 
-    
-    
-    
     
     
     .marcas-titu{
@@ -977,36 +1006,6 @@ body{
         display: block;       
         
     }
-
-    
-
-  
-    
-
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
