@@ -41,6 +41,7 @@ body{
     background: #fff;   
     float: left;
     width: 100%;
+    border-bottom: 2px solid #004C76;
 }
 
 .logo{ 
@@ -485,38 +486,21 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.backtopo{ 
+    width:50px; 
+    height:50px; 
+    background:url(assets/images/icon_back.png) no-repeat; 
+    cursor:pointer; 
+    position:fixed;
+    z-index:1000; 
+    bottom:20px; 
+    right:10px; 
+    display:none;
+}
+.backtopo:hover{ 
+    /*background:url(assets/images/icon_back2.png) no-repeat;*/
+    transition: all 0.4s; 
+}
 
 
 
@@ -549,11 +533,6 @@ body{
         font-size: 50px;
     }
     
-    
-    
-    
-
-
 
     
     
@@ -568,14 +547,6 @@ body{
 
 /*********************************************************************************/
 @media(min-width:768px){
-    
-  
-    
-   
- 
-    
-    
-    
     
     
     .ofertas{ 
@@ -697,13 +668,11 @@ body{
         margin: 30px 0 20px 0;
     }
 
-
     
-
-   
-
-
- 
+    
+    .backtopo{     
+        right: 40px;
+    }
     
     
     
